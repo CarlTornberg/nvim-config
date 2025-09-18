@@ -1,6 +1,6 @@
 return {
   --- Highlightning, indenting, etc
-  
+
   'nvim-treesitter/nvim-treesitter',
   run = ':TSUpdate',
   config = function()
@@ -18,5 +18,5 @@ return {
     vim.wo.foldmethod = 'expr'
     vim.wo.foldexpr = 'nvim_treesitter#foldexpr()'
   end,
-    
+
 }

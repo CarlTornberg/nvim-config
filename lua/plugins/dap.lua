@@ -14,7 +14,7 @@ return {
 
     vim.fn.jobstart('cargo build')
 
-    --- Set up dap for Rust using codelldb
+    --- Setup dap for Rust using codelldb
     dap.adapters.codelldb = {
       type = "executable",
       command = "codelldb", -- or to /absolute/path/codelldb
