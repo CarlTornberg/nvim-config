@@ -1,6 +1,6 @@
 local opt = vim.opt
 
---- opt.guicursor = "" --- Always fat cursor
+--- opt.guicursor = "" --- Always fat cursor.
 opt.nu = true
 opt.relativenumber = true
 opt.tabstop = 2
