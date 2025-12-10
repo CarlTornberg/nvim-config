@@ -25,8 +25,8 @@ vim.keymap.set("n", "<Q>", "<nop>") -- "Dont ever press Q, its the worst place i
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>") -- Not working, should take me to advent mode something
 
 
-vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz") -- Quick fix navigation
-vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz") -- Quick fix navigation
+-- vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz") -- Quick fix navigation
+-- vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz") -- Quick fix navigation
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz") -- Quick fix navigation
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz") -- Quick fix navigation
 

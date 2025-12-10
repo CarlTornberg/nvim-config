@@ -54,3 +54,7 @@ vim.opt.updatetime = 50
 
 --- Colored column
 vim.opt.colorcolumn = "80"
+
+--- Spellchecking
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true        --- To see suggestions: z=    To go to next error: ]s    prev error [s
