@@ -57,4 +57,8 @@ vim.opt.colorcolumn = "80"
 
 --- Spellchecking
 vim.opt.spelllang = "en_us"
-vim.opt.spell = true        --- To see suggestions: z=    To go to next error: ]s    prev error [s
+vim.opt.spell = true
+--- To see suggestions: z=    
+--- To next error: ]s    
+--- To prev error: [s
+--- Add your own word to spell file: zg
