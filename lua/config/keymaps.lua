@@ -1,3 +1,10 @@
+-- LSP DIAGNISTICS HELPERS 
+-- [d jumps to next
+-- ]d jumpt to prev
+-- [D jumps to last in buffer
+-- ]D jumps to first in buffer
+-- <C-w>d shows diagnostic at cursor in a floating window
+
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set("n", "n", "nzzzv") -- Keeps cursor centered when searching
