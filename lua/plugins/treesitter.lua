@@ -6,7 +6,7 @@ return {
   config = function()
     local config = require("nvim-treesitter.configs")
     config.setup({
-      ensure_installed = { "lua", "rust", "toml" },
+      ensure_installed = { "c", "cpp", "lua", "rust", "toml" },
       auto_install = true,
       highlight = { 
         enable = true,
