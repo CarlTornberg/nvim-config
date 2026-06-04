@@ -47,4 +47,5 @@ return {
     -- If the plugin should silence notifications about initialization
     silent = false,
     }
+
 }
