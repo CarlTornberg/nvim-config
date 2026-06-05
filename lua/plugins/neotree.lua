@@ -14,6 +14,27 @@ return {
   ---@type neotree.Config?
   opts = {
     -- options here..
+    filesystem = {
+      filtered_items = {
+        hide_by_pattern = {
+          -- Add glob patterns to hide files like *.meta
+          "*.meta",
+        },
+      },
+    },
+  },
+  event_handlers = {
+
+    {
+      event = "file_opened",
+      handler = function(file_path)
+        -- auto close
+        -- vimc.cmd("Neotree close")
+        -- OR
+        require("neo-tree.command").execute({ action = "close" })
+      end
+    },
+
   },
   config = function ()
     vim.keymap.set("n", "<C-n>", ":Neotree toggle<CR>")
