@@ -46,6 +46,19 @@ return {
 
     -- If the plugin should silence notifications about initialization
     silent = false,
+
+    config = {
+            settings = {
+                -- Tell Roslyn to allow decompiling external references
+                ["csharp|symbol_search"] = {
+                    dotnet_search_reference_assemblies = true,
+                },
+                -- This setting forces the metadata as source generation
+                ["roslyn_lsp|features"] = {
+                    dotnet_enable_references_code_lens = true,
+                }
+            },
+        },
     }
 
 }
